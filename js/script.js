@@ -1,7 +1,7 @@
 const objToSelect = (kode, tag, header) => {
   $(`#${tag}`).html(`<option value="">${header}</option>`); // Clear existing options
 
-  fetch(`../wilayah/${kode}.json`)
+  fetch(`https://i01107.github.io/nik-generator/wilayah/${kode}.json`)
   .then(response => response.json())
   .then(regions => {
     if (regions.length > 0) {
