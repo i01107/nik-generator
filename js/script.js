@@ -17,7 +17,8 @@ const objToSelect = (kode, tag, header) => {
 
 const generageNIK = () => {
   const nama = $('#nama').val();
-  const tgl = $('#tgl').val().padStart(2, '0');
+  const gender = $('#gender').val();
+  let tgl = Number($('#tgl').val());
   const bln = $('#bln').val().padStart(2, '0');
   const thn = $('#thn').val().slice(-2);
   const provinsi = $('#provinsi').val().slice(-2);
@@ -25,7 +26,8 @@ const generageNIK = () => {
   const kecamatan = $('#kecamatan').val().slice(-2);
 
   let namaLow = nama.toLowerCase();
-  // let namaArr = namaLow.split(' ');
+  tgl = gender === 'p' ? tgl + 40 : tgl;
+  tgl = tgl.toString().padStart(2, '0');
 
   let total = namaLow.charCodeAt(0);
   for (let i = 0; i < namaLow.length; i++) {
