@@ -1,0 +1,38 @@
+[
+  {
+    "kode": "121001",
+    "nama": "Rantau Utara"
+  },
+  {
+    "kode": "121002",
+    "nama": "Rantau Selatan"
+  },
+  {
+    "kode": "121007",
+    "nama": "Bilah Barat"
+  },
+  {
+    "kode": "121008",
+    "nama": "Bilah Hilir"
+  },
+  {
+    "kode": "121009",
+    "nama": "Bilah Hulu"
+  },
+  {
+    "kode": "121014",
+    "nama": "Pangkatan"
+  },
+  {
+    "kode": "121018",
+    "nama": "Panai Tengah"
+  },
+  {
+    "kode": "121019",
+    "nama": "Panai Hilir"
+  },
+  {
+    "kode": "121020",
+    "nama": "Panai Hulu"
+  }
+]
